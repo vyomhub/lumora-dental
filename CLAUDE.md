@@ -66,3 +66,12 @@ is a CSS variant and is fine to keep.)
   regenerate hero (`…dentist-examining-patients-teeth-close-up_1.webp`), about hero, team photos,
   testimonial avatars, then story/service/blog thumbs. Keep identical dimensions so layout/IX2 hold.
 - Optional polish: real clinic phone number, real OG image, real social profile URLs (currently `#`).
+
+## Variants, legal, deploy, prompt (added 14 Jun 2026)
+- `variant-blue/` = full copy recolored teal->bright blue (`--primary-*` overrides + hex sweep),
+  4-point sparkle eyebrow icon. Same layout/animations.
+- Legal pages: `privacy/terms/cookies/licenses/404.html` (hand-built, on-brand, all footer-linked).
+- Footer credit: "Crafted by RapidXAI" + "© 2026 Lumora Dental".
+- GitHub: private repo `toprmrproducer/lumora-dental`.
+- Netlify: site `lumora-dental-blue.netlify.app` created but deploy BLOCKED (account credits exhausted).
+- `ONESHOT_PROMPT.md` = comprehensive prompt to regenerate this site from scratch with [PLACEHOLDERS].
