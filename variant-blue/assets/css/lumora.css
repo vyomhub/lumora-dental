@@ -9103,7 +9103,8 @@ footer{border-top:3px solid var(--primitive-color--primary-500,#2f80ff);}
 
 /* ===== Hero: pull content up so the info strip is visible on load ===== */
 .padding-home-hero{padding-top:104px!important;}
-.our-info_wrap{margin-top:-165px;}
+@media(min-width:992px){.our-info_wrap{margin-top:-165px;}}
+@media(max-width:991px){.padding-home-hero{padding-top:120px!important;}.our-info_wrap{margin-top:24px;}}
 
 /* ===== Premium DARK footer (was bland cream) ===== */
 .section_footer{background:var(--primitive-color--primary-900,#011f23)!important;border-top:3px solid var(--primitive-color--primary-500,#24a3b1);}
